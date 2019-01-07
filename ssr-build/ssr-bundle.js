@@ -1221,7 +1221,7 @@ var app_App = function (_Component) {
 			app__ref,
 			Object(preact_min["h"])(
 				preact_router_es["Router"],
-				{ onChange: this.handleRoute },
+				{ onChange: this.handleRoute, basename: process.env.PUBLIC_URL },
 				app__ref2,
 				app__ref3,
 				Object(preact_min["h"])(sets_Sets, { path: '/sets', data: state.data }),
