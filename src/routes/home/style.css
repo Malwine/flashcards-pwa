@@ -36,3 +36,25 @@
 .smaller {
 	height: 100px;
 }
+
+.reminder {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 35px;
+  padding: 0 1.5rem;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .8px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+  color: #FFF;
+  width: 100%;
+  background-color: #600060;
+}
